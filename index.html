@@ -48,9 +48,14 @@
             <option>Divorciado(a)</option>
             <option>Viúvo(a)</option>
         </select>
-
-        <label for="Preferência de contato">Preferência de contato</label>
-        <input type="text" id="preferência de contato" placeholder="Digite aqui sua preferência de contato, e-mail ou telefone">
+        
+        <fieldset>
+            <legend>Preferência de contato</legend>
+            <input type="radio" name="habilitacao" id="habilitacao_s" value="s">
+            <label for="habilitacao_s">E-mail</label>
+            <input type="radio" checked name="habilitacao" id="habilitacao_n" value="n">
+            <label for="habilitacao_n">Telefone</label>
+        </fieldset>
 
         <div>
             <input type="checkbox" id="lieconcordo">
