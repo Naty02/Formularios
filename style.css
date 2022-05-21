@@ -1,0 +1,7 @@
+form > * {
+    display: block;
+}
+
+.invalido {
+    background-color: white;
+}
