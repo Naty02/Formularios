@@ -1,5 +1,20 @@
+body{
+    color: black;
+    margin: 20px;
+    font-family: 'Arial', cursive;
+    font-size: 20px;
+
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 50%;
+}
+
 form > * {
+    border-top: 1px solid #333;
     display: block;
+    width: 80,90%;
 }
 
 .invalido {

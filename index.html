@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form-cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,31 +15,31 @@
     <form>
         <label for="Nome Completo">Nome completo</label>
         <input type="text" id="nome completo" placeholder="Digite aqui seu nome completo">
-
+        <br />
         <label for="E-mail">E-mail</label>
         <input type="text" id="e-mail" placeholder="Digite aqui seu e-mail">
-
+        <br />
         <label for="Telefone(opcional)">Telefone (opcional)</label>
         <input type="number" id="telefone(opcional)" placeholder="Digite aqui seu telefone">
-
+        <br />
         <label for="Logradouro">Logradouro</label>
         <input type="text" id="logradouro" placeholder="Digite aqui o nome da sua rua">
-
+        <br />
         <label for="Número">Número</label>
         <input type="number" id="Número" min="1" class="invalido" placeholder="Digite aqui o número da sua casa">
-
+        <br />
         <label for="Bairro">Bairro</label>
         <input type="text" id="bairro" placeholder="Digite aqui o nome do seu bairro">
-
+        <br />
         <label for="Cidade">Cidade</label>
         <input type="text" id="cidade" placeholder="Digite aqui o nome da sua cidade">
-
+        <br />
         <label for="Estado">Estado</label>
         <input type="text" id="estado" placeholder="Digite aqui o nome do seu estado">
-
+        <br />
         <label for="CEP(opcional)">CEP (opcional)</label>
         <input type="number" id="cep" placeholder="Digite aqui seu cep">
-
+        <br />
         <label for="estciv">Estado Civil</label>
         <select id="estciv">
             <option selected>-- selecione --</option>
@@ -48,7 +48,7 @@
             <option>Divorciado(a)</option>
             <option>Viúvo(a)</option>
         </select>
-        
+        <br />
         <fieldset>
             <legend>Preferência de contato</legend>
             <input type="radio" name="habilitacao" id="habilitacao_s" value="s">
@@ -56,17 +56,18 @@
             <input type="radio" checked name="habilitacao" id="habilitacao_n" value="n">
             <label for="habilitacao_n">Telefone</label>
         </fieldset>
-
+        <br />
         <div>
             <input type="checkbox" id="lieconcordo">
             <label for="lieconcordo">Li e concordo</label>
         </div>
-
+        <br />
         <label for="observacao">Observação</label>
         <textarea id="observacao" cols="50" rows="5"></textarea>
-
+        <br />
         <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+        <input type="reset" value="Reiniciar">
+        <br />
     </form>
 </body>
 </html>
